@@ -11,7 +11,7 @@ try {
 require __DIR__ . '/vendor/autoload.php';
 
 use Stripe\Stripe;
-Stripe::setApiKey('Mysecret_key');
+Stripe::setApiKey('');
 
 // if (isset($_POST['payer'])) {
     // $prix=strip_tags($_POST['amount']);

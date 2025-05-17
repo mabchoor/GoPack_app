@@ -3,7 +3,7 @@
 require __DIR__ . '/config.php';
 require __DIR__ . '/vendor/autoload.php';
 use Stripe\Stripe;
-Stripe::setApiKey('Mysecret_key');
+Stripe::setApiKey('');
 
 
 
